@@ -1,0 +1,120 @@
+
+body {  
+    background-image: url(https://media.istockphoto.com/id/1542598409/photo/movie-podium-background-with-movie-objects-3d-rendering.webp?b=1&s=170667a&w=0&k=20&c=VUwlXnJCjj7A811-dxcwhb9gZ-yp48ymZ2Jmm4lOlto=);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;    
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.base-site {    
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    max-width: 800px;   
+    width: 100%;
+    text-align: center ;
+
+}
+h1,h2{
+    font-family:monospace;
+    text-align: center;
+    color: white;
+    text-shadow: 0.1em 0.1em rgb(62, 102, 102);
+    
+} 
+ #formulario {
+    margin-bottom: 20px;
+}
+ form {
+    display: flex;
+    flex-direction: column; 
+}
+form input, form textarea, form button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px; 
+}
+ #lista-filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+ button {
+    background-color: rgb(25,25,112);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+nav {
+    width: 275px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    flex: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+} 
+ .link{
+    text-decoration: none;
+    
+}
+
+.link:active {
+    color: black;
+}
+.movie {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie h3 {
+    margin: 10px 0 5px;
+}
+
+.movie p {
+    margin: 5px 0;
+}
+
+.movie button {
+    background-color:red;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.movie button:hover {
+    background-color: #ff0000;
+}
+.ocultar{
+    align-self: center;
+    display: none;
+}
+.bt{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+   
+}
+

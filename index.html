@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAIFLIX</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+</head>
+<body>
+    <div class="base">  
+    <h1>PERSONAGENS PRINCIPAIS</h1>
+    <nav>
+        <a class= "link" href="projetofinal.html"><button>Filmes</button></a>
+    </nav>
+
+    <button class="bt" onclick="ocultarpersonagem()" >Adicionar personagem</button>
+
+    <div id="formulario" class="ocultar">
+    <form id="addPersonagem">
+        <input type="text" id="nome" placeholder="Nome do personagem" required>
+        <input type="text" id="filme" placeholder="Filme" required>
+        <input type="text" id="atores" placeholder="Ator/atriz" required>
+        <textarea id="descricao" placeholder="Descrição" required></textarea>
+        <input type="text" id="habilidades" placeholder="habilidades" required>
+        <input type="text" id="url" placeholder="URL do personagem" required>
+        <button type="submit">Enviar personagem</button>
+    </form>
+    </div>
+
+    <h2>LISTA DE PERSONAGENS</h2>
+    <div id="lista_personagens"></div>
+    </div>
+</body>
+</html>

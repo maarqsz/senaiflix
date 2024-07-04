@@ -1,0 +1,107 @@
+#addPersonagem {
+    display: flex;
+    flex-direction: column;
+    
+}
+.link {
+    text-decoration: none;
+}
+nav {
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+    flex: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+h1, h2{
+    font-family:monospace;
+    text-align: center;
+    color: white;
+    text-shadow: 0.1em 0.1em rgb(62, 102, 102);
+    
+}
+form input, form textarea, form button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 15px;
+}
+body {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(https://media.istockphoto.com/id/1542598409/photo/movie-podium-background-with-movie-objects-3d-rendering.webp?b=1&s=170667a&w=0&k=20&c=VUwlXnJCjj7A811-dxcwhb9gZ-yp48ymZ2Jmm4lOlto=);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.base {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center; 
+}
+#lista_personagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.ocultar {
+    display: none;
+}
+#formulario {
+    margin-bottom: 20px;
+}
+.personagem {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgb(black);
+}
+.personagem img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+.personagem h3{
+    margin: 10px 0 5px;
+}
+.personagem button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.personagem p{
+    margin: 5px 0;
+}
+.personagem button:hover {
+    background-color: red;
+}
+button {
+    background-color: rgb(25,25,112);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.bt{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
